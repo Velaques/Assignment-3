@@ -13,8 +13,7 @@ namespace Prime_numbers
             Console.WriteLine("Please enter a number.");
             int input = Convert.ToInt32(Console.ReadLine());
             bool nonprime = true;
-            int n = 999999999;
-            bool[] numbers = new bool[n];
+            bool[] numbers = new bool[input];
             for (int i = 2; i < input; i++)
             {
                 numbers[i] = true;
